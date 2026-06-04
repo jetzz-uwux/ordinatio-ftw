@@ -1,0 +1,11 @@
+<animes>
+    <anime>
+        <nombre></nombre>
+        <genero></genero>
+        <calificacion></calificacion>
+        <año></año>
+        <portada></portada>
+        <estado></estado>
+    </anime>
+
+</animes>

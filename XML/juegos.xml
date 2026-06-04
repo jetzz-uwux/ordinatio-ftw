@@ -1,0 +1,11 @@
+<juegos>
+    <juego>
+        <nombre></nombre>
+        <genero></genero>
+        <calificacion></calificacion>
+        <plataforma></plataforma>
+        <año></año>
+        <portada></portada>
+    </juego>
+
+</juegos>

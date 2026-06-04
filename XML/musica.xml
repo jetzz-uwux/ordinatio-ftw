@@ -1,0 +1,130 @@
+<repertorio>
+    <artista id="a1">
+        <nombre-artista>Taylor Swift</nombre-artista>
+        <album id="al1">
+            <nombre-album>Midnights</nombre-album>
+            <genero>Pop</genero>
+            <anio>2022</anio>
+            <portada></portada>
+            <canciones>
+                <cancion track="2">
+                    <nombre-cancion>Maroon</nombre-cancion>
+                    <duracion>3:22</duracion>
+                </cancion>
+                <cancion track="5">
+                    <nombre-cancion>You're on Your Own, Kid</nombre-cancion>
+                    <duracion>3:38</duracion>
+                </cancion>
+                <cancion track="13">
+                    <nombre-cancion>Mastermind</nombre-cancion>
+                    <duracion>3:11</duracion>
+                </cancion>
+            </canciones>
+        </album>
+        <album id="al2">
+            <nombre-album>1989 (Taylor's Version)</nombre-album>
+            <genero>Pop</genero>
+            <anio>2023</anio>
+            <portada></portada>
+            <canciones>
+                <cancion track="2">
+                    <nombre-cancion>Blank Space</nombre-cancion>
+                    <duracion>3:51</duracion>
+                </cancion>
+                <cancion track="3">
+                    <nombre-cancion>Style</nombre-cancion>
+                    <duracion>3:51</duracion>
+                </cancion>
+                <cancion track="13">
+                    <nombre-cancion>Clean</nombre-cancion>
+                    <duracion>4:31</duracion>
+                </cancion>
+            </canciones>
+        </album>
+    </artista>
+    <artista id="a2">
+        <nombre-artista>Sabrina Carpenter</nombre-artista>
+        <album id="al3">
+            <nombre-album>Short n' Sweet</nombre-album>
+            <genero>Pop</genero>
+            <anio>2024</anio>
+            <portada></portada>
+            <canciones>
+                <cancion track="7">
+                    <nombre-cancion>Espresso</nombre-cancion>
+                    <duracion>2:55</duracion>
+                </cancion>
+                <cancion track="10">
+                    <nombre-cancion>Juno</nombre-cancion>
+                    <duracion>3:43</duracion>
+                </cancion>
+                <cancion track="11">
+                    <nombre-cancion>Lie To Girls</nombre-cancion>
+                    <duracion>3:22</duracion>
+                </cancion>
+                <cancion track="12">
+                    <nombre-cancion>Don't Smile</nombre-cancion>
+                    <duracion>3:26</duracion>
+                </cancion>
+            </canciones>
+        </album>
+        <album id="al4">
+            <nombre-album>Man's Best Friend</nombre-album>
+            <genero>Pop</genero>
+            <anio>2025</anio>
+            <portada></portada>
+            <canciones>
+                <cancion track="1">
+                    <nombre-cancion>Manchild</nombre-cancion>
+                    <duracion>3:33</duracion>
+                </cancion>
+                <cancion track="3">
+                    <nombre-cancion>My Man on Willpower</nombre-cancion>
+                    <duracion>3:17</duracion>
+                </cancion>
+                <cancion track="13">
+                    <nombre-cancion>Don't Worry I'll Make You Worry</nombre-cancion>
+                    <duracion>4:31</duracion>
+                </cancion>
+            </canciones>
+        </album>
+    </artista>
+    <artista id="a3">
+        <nombre-artista>Billie Eilish</nombre-artista>
+        <album id="al5">
+            <nombre-album>HIT ME HARD AND SOFT</nombre-album>
+            <genero>Pop</genero>
+            <anio>2024</anio>
+            <portada></portada>
+            <canciones>
+                <cancion track="4">
+                    <nombre-cancion>BIRDS OF A FEATHER</nombre-cancion>
+                    <duracion>3:30</duracion>
+                </cancion>
+                <cancion track="2">
+                    <nombre-cancion>LUNCH</nombre-cancion>
+                    <duracion>2:59</duracion>
+                </cancion>
+            </canciones>
+        </album>
+    </artista>
+    <artista id="a4">
+        <nombre-artista>Addison Rae</nombre-artista>
+        <album id="al6">
+            <nombre-album>Addison</nombre-album>
+            <genero>Pop</genero>
+            <anio>2025</anio>
+            <portada></portada>
+            <canciones>
+                <cancion track="7">
+                    <nombre-cancion>Fame is a Gun</nombre-cancion>
+                    <duracion>3:03</duracion>
+                </cancion>
+                <cancion track="10">
+                    <nombre-cancion>Money is Everything</nombre-cancion>
+                    <duracion>2:49</duracion>
+                </cancion>
+            </canciones>
+        </album>
+    </artista>
+</repertorio>
