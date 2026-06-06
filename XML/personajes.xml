@@ -1,0 +1,75 @@
+<lista-personajes>
+    <personaje id="p1" elemento="Cryo" region="Mondstadt">
+        <nombre>Lohen</nombre>
+        <rareza>5 estrellas</rareza>
+        <rol>DPS</rol>
+        <tipo-rol>DPS Principal</tipo-rol>
+        <tipo-arma>Lanza</tipo-arma>
+        <imagen>lohen.png</imagen>
+    </personaje>
+    <personaje id="p2" elemento="Pyro" region="Liyue">
+        <nombre>Hu Tao</nombre>
+        <rareza>5 estrellas</rareza>
+        <rol>DPS</rol>
+        <tipo-rol>DPS Principal</tipo-rol>
+        <tipo-arma>Lanza</tipo-arma>
+        <imagen>hutao.png</imagen>
+    </personaje>
+    <personaje id="p3" elemento="Geo" region="Nod-Krai">
+        <nombre>Linnéa</nombre>
+        <rareza>5 estrellas</rareza>
+        <rol>Sub-DPS, Soporte</rol>
+        <tipo-rol>Curador</tipo-rol>
+        <tipo-arma>Arco</tipo-arma>
+        <imagen>linnea.png</imagen>
+    </personaje>
+    <personaje id="p4" elemento="Pyro" region="Mondstadt">
+        <nombre>Bennett</nombre>
+        <rareza>4 estrellas</rareza>
+        <rol>Soporte</rol>
+        <tipo-rol>Buffer, Curador</tipo-rol>
+        <tipo-arma>Espada Ligera</tipo-arma>
+        <imagen>bennett.png</imagen>
+    </personaje>
+    <personaje id="p5" elemento="Electro" region="Inazuma">
+        <nombre>Raiden Shogun</nombre>
+        <rareza>5 estrellas</rareza>
+        <rol>DPS</rol>
+        <tipo-rol>DPS Principal</tipo-rol>
+        <tipo-arma>Lanza</tipo-arma>
+        <imagen>shogun.png</imagen>
+    </personaje>
+    <personaje id="p6" elemento="Cryo" region="Sumeru">
+        <nombre>Laila</nombre>
+        <rareza>4 estrellas</rareza>
+        <rol>Soporte</rol>
+        <tipo-rol>Escudero</tipo-rol>
+        <tipo-arma>Espada Ligera</tipo-arma>
+        <imagen>laila.png</imagen>
+    </personaje>
+    <personaje id="p7" elemento="Hydro" region="Fontaine">
+        <nombre>Furina</nombre>
+        <rareza>5 estrellas</rareza>
+        <rol>Sub-DPS, Soporte</rol>
+        <tipo-rol>Curador</tipo-rol>
+        <tipo-arma>Espada Ligera</tipo-arma>
+        <imagen>furina.png</imagen>
+    </personaje>
+    <personaje id="p8" elemento="Anemo" region="Natlan">
+        <nombre>Chasca</nombre>
+        <rareza>5 estrellas</rareza>
+        <rol>DPS</rol>
+        <tipo-rol>DPS Principal</tipo-rol>
+        <tipo-arma>Arco</tipo-arma>
+        <imagen>chasca.png</imagen>
+    </personaje>
+    <personaje id="p9" elemento="Dendro" region="Sumeru">
+        <nombre>Nahida</nombre>
+        <rareza>5 estrellas</rareza>
+        <rol>Sub-DPS, Soporte</rol>
+        <tipo-rol>Buffer</tipo-rol>
+        <tipo-arma>Catalizador</tipo-arma>
+        <imagen>nahida.png</imagen>
+    </personaje>
+
+</lista-personajes>
