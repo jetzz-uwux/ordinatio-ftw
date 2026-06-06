@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE usuarios SYSTEM "../dtd/usuarios.dtd">
+<usuarios>
+    <usuario id="u1">
+        <correo></correo>
+        <password></password>
+    </usuario>
+</usuarios>
