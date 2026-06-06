@@ -1,6 +1,0 @@
-<lista-armas>
-    <arma id="ar1" tipo="Lanza" rareza="5">
-        <nombre>Lanza de Favonius</nombre>
-        <imagen>lanzafavonius.png</imagen>
-    </arma>
-</lista-armas>

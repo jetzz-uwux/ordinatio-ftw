@@ -1,9 +1,0 @@
-<lista-artefactos>
-    <set id="s1">
-        <nombre>Reminiscencia de la Purificación</nombre>
-        <bonificacion-2>+18% ATQ</bonificacion-2>
-        <bonificacion-4>Potencia Ataques Normales</bonificacion-4>
-        <personajes-recomendados>Hu Tao, Yoimiya</personajes-recomendados>
-        <imagen>reminiscencia.png</imagen>
-    </set>
-</lista-artefactos>
