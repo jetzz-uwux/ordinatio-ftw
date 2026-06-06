@@ -1,0 +1,5 @@
+<!ELEMENT lista-equipos (equipo+)>
+<!ELEMENT equipo (nombre, descripcion, miembros)>
+<!ATTLIST equipo id ID #REQUIRED>
+<!ATTLIST equipo tipo CDATA #REQUIRED>
+<!ATTLIST equipo reaccion CDATA #REQUIRED>
