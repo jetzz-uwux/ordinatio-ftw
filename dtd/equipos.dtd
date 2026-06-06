@@ -3,3 +3,8 @@
 <!ATTLIST equipo id ID #REQUIRED>
 <!ATTLIST equipo tipo CDATA #REQUIRED>
 <!ATTLIST equipo reaccion CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT miembros (miembro+)>
+<!ELEMENT miembro (#PCDATA)>
+<!ATTLIST miembro rol CDATA #REQUIRED>
