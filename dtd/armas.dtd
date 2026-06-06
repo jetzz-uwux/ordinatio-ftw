@@ -1,0 +1,8 @@
+<!ELEMENT lista-armas (arma+)>
+<!ELEMENT arma (nombre, imagen, personajes-recomendados)>
+<!ATTLIST arma id ID #REQUIRED>
+<!ATTLIST arma tipo CDATA #REQUIRED>
+<!ATTLIST arma rareza CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT imagen (#PCDATA)>
+<!ELEMENT personajes-recomendados (#PCDATA)>

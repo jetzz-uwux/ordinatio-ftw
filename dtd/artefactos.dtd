@@ -1,0 +1,8 @@
+<!ELEMENT lista-artefactos (set+)>
+<!ELEMENT set (nombre, bonificacion-2,bonificacion-4, personajes-recomendados,imagen)>
+<!ATTLIST set id ID #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT bonificacion-2 (#PCDATA)>
+<!ELEMENT bonificacion-4 (#PCDATA)>
+<!ELEMENT personajes-recomendados (#PCDATA)>
+<!ELEMENT imagen (#PCDATA)>
