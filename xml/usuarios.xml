@@ -2,7 +2,7 @@
 <!DOCTYPE usuarios SYSTEM "../dtd/usuarios.dtd">
 <usuarios>
     <usuario id="u1">
-        <correo></correo>
-        <password></password>
+        <correo>admin@correo.com</correo>
+        <password>1234</password>
     </usuario>
 </usuarios>
