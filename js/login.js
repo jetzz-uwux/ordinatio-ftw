@@ -20,6 +20,7 @@ function iniciarsesion(){
             const passwordXML = usuarios[i].getElementsByTagName('password')[0].textContent
             if (correo === correoXML && password === passwordXML) {
                 encontrado = true;
+                sessionStorage.setItem('usuario', correo)
                 window.location.href = 'perfil.html'
             }
         }
@@ -37,7 +38,7 @@ const checkcontrasena = document.getElementById("passwordmostrar")
 checkcontrasena.addEventListener('change', mostrarContraseña)
 
 function mostrarContraseña(){
-    
+
     const campo = document.getElementById('password')
     if (checkcontrasena.checked){
         campo.type = 'text'

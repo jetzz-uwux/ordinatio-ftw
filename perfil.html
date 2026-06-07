@@ -1,37 +1,38 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Genshin 𖹭 Wiki - Perfil</title>
-    <link rel="icon" type="image/png" href="src/img/icon-inicio.png">
-    <link rel="stylesheet" href="css/estilos.css">
-</head>
-<body>
-    <header>    
-        <nav> 
-            <h1>Genshin 𖹭 Wiki</h1>
-            <ul class="horizontal">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="personajes.html">Personajes</a></li>
-                <li><a href="armas.html">Armas</a></li>
-                <li><a href="artefactos.html">Artefactos</a></li>
-                <li><a href="equipos.html">Equipos</a></li>
-                <li><a href="acercade.html">Acerca de</a></li>
-                <li><a href="login.html">Iniciar sesión</a></li>
-                <li><a href="perfil.html">Perfil</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-<section>
-        <h2>Perfil</h2>
-            <p>Bienvenid@, <span id="nombre-usuario"></span></p>
-            <button type="button" id="btn-logout">Cerrar sesión</button>
-        </section>
-    </main>
-    <footer>
-        <p>Tello Campos Jetzaly Josmery - Genshin Wiki</p>
-    </footer>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Genshin 𖹭 Wiki - Perfil</title>
+        <link rel="icon" type="image/png" href="src/img/icon-inicio.png">
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body>
+        <header>    
+            <nav> 
+                <h1>Genshin 𖹭 Wiki</h1>
+                <ul class="horizontal">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="personajes.html">Personajes</a></li>
+                    <li><a href="armas.html">Armas</a></li>
+                    <li><a href="artefactos.html">Artefactos</a></li>
+                    <li><a href="equipos.html">Equipos</a></li>
+                    <li><a href="acercade.html">Acerca de</a></li>
+                    <li><a href="login.html">Iniciar sesión</a></li>
+                    <li id="link-perfil" style="display:none"><a href="perfil.html">Perfil</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2>Perfil</h2>
+                <p>Bienvenid@, <span id="nombre-usuario"></span></p>
+                <button type="button" id="btn-logout">Cerrar sesión</button>
+            </section>
+        </main>
+        <footer>
+            <p>Tello Campos Jetzaly Josmery - Genshin Wiki</p>
+        </footer>
+        <script src="js/sesion-activa.js"></script>
+    </body>
 </html>
