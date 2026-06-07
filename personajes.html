@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Genshin 𖹭 Wiki - Personajes</title>
+    <link rel="icon" type="image/png" href="/src/img/icon-personaje.png">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
@@ -13,15 +14,88 @@
             <ul class="horizontal">
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="personajes.html">Personajes</a></li>
-                <li><a href="">Armas</a></li>
-                <li><a href="">Artefactos</a></li>
-                <li><a href="">Equipos</a></li>
-                <li><a href="">Acerca de</a></li>
+                <li><a href="armas.html">Armas</a></li>
+                <li><a href="artefactos.html">Artefactos</a></li>
+                <li><a href="equipos.html">Equipos</a></li>
+                <li><a href="acercade.html">Acerca de</a></li>
                 <li><a href="login.html">Iniciar sesión</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
+        <section>
+            <input id="pyro" type="checkbox">
+            <label for="pyro"> <img src="src/img/elementos/Element_Pyro.png" alt="Filtrado por personajes Pyro"></label>
+            
+            <input id="cryo" type="checkbox">
+            <label for="cryo"> <img src="src/img/elementos/Element_Cryo.png" alt="Filtrado por personajes"></label>
+            
+            <input id="electro" type="checkbox">
+            <label for="electro"><img src="src/img/elementos/Element_Electro.png" alt="Filtrado por personajes Electro"></label>
+            
+            <input id="anemo" type="checkbox">
+            <label for="anemo"><img src="src/img/elementos/Element_Anemo.png" alt="Filtrado por personajes Anemo"></label>
+            
+            <input id="hydro" type="checkbox">
+            <label for="hydro"><img src="src/img/elementos/Element_Hydro.png" alt="Filtrado por personajes Hydro"></label>
+            
+            <input id="geo" type="checkbox">
+            <label for="geo"><img src="src/img/elementos/Element_Geo.png" alt="Filtrado por personajes Geo"></label>
+            
+            <input id="dendro" type="checkbox">
+            <label for="dendro"><img src="src/img/elementos/Element_Dendro.png" alt="Filtrado por personajes Dendro"></label>
+
+            <select id="rareza">
+                <option value="Todos">Todos</option>
+                <option value="5 estrellas">⭐⭐⭐⭐⭐</option>
+                <option value="4 estrellas">⭐⭐⭐⭐</option>
+            </select>
+            
+            <input id="mandoble" type="checkbox">
+            <label for="mandoble"><img src="src/img/armas/Mandoble.png" alt="Filtrado por Mandoble"></label>
+
+            <input id="catalizador" type="checkbox">
+            <label for="catalizador"><img src="src/img/armas/Catalizador.png" alt="Filtrado por Catalizador"></label>
+
+            <input id="lanza" type="checkbox">
+            <label for="lanza"><img src="src/img/armas/Lanza.png" alt="Filtrado por Lanza"></label>
+
+            <input id="espadaligera" type="checkbox">
+            <label for="espadaligera"><img src="src/img/armas/Espada.png" alt="Filtrado por Espada"></label>
+
+            <input id="arco" type="checkbox">
+            <label for="arco"><img src="src/img/armas/Arco.png" alt="Filtrado por Arco"></label>
+            
+            
+        </section>
+
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Personaje</th>
+                        <th>Nombre</th>
+                        <th>Elemento</th>
+                        <th>Rareza</th>
+                        <th>Rol</th>
+                        <th>Arma</th>
+                        <th>Region</th>
+                        <th>Afiliación</th>
+                        <th>Descripción</th>
+                    </tr>
+                </thead>
+                <tbody id="tabla-armas">
+
+                </tbody>
+            </table>
+        </section>
     </main>
+    
+    <footer>
+        <p>Tello Campos Jetzaly Josmery - Genshin Wiki</p>
+    </footer>
+    
+    <script src=""></script>
 </body>
 </html>
