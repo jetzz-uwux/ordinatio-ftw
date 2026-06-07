@@ -7,6 +7,8 @@
         <rol>DPS</rol>
         <tipo-rol>DPS Principal</tipo-rol>
         <tipo-arma>Lanza</tipo-arma>
+        <afiliacion></afiliacion>
+        <descripcion></descripcion>
         <imagen>lohen.png</imagen>
     </personaje>
     <personaje id="p2" elemento="Pyro" region="Liyue">
@@ -15,6 +17,8 @@
         <rol>DPS</rol>
         <tipo-rol>DPS Principal</tipo-rol>
         <tipo-arma>Lanza</tipo-arma>
+        <afiliacion></afiliacion>
+        <descripcion></descripcion>
         <imagen>hutao.png</imagen>
     </personaje>
     <personaje id="p3" elemento="Geo" region="Nod-Krai">
@@ -23,6 +27,8 @@
         <rol>Sub-DPS, Soporte</rol>
         <tipo-rol>Curador</tipo-rol>
         <tipo-arma>Arco</tipo-arma>
+        <afiliacion></afiliacion>
+        <descripcion></descripcion>
         <imagen>linnea.png</imagen>
     </personaje>
     <personaje id="p4" elemento="Pyro" region="Mondstadt">
@@ -31,6 +37,8 @@
         <rol>Soporte</rol>
         <tipo-rol>Buffer, Curador</tipo-rol>
         <tipo-arma>Espada Ligera</tipo-arma>
+        <afiliacion></afiliacion>
+        <descripcion></descripcion>
         <imagen>bennett.png</imagen>
     </personaje>
     <personaje id="p5" elemento="Electro" region="Inazuma">
@@ -39,6 +47,8 @@
         <rol>DPS</rol>
         <tipo-rol>DPS Principal</tipo-rol>
         <tipo-arma>Lanza</tipo-arma>
+        <afiliacion></afiliacion>
+        <descripcion></descripcion>
         <imagen>shogun.png</imagen>
     </personaje>
     <personaje id="p6" elemento="Cryo" region="Sumeru">
@@ -47,6 +57,8 @@
         <rol>Soporte</rol>
         <tipo-rol>Escudero</tipo-rol>
         <tipo-arma>Espada Ligera</tipo-arma>
+        <afiliacion></afiliacion>
+        <descripcion></descripcion>
         <imagen>laila.png</imagen>
     </personaje>
     <personaje id="p7" elemento="Hydro" region="Fontaine">
@@ -55,6 +67,8 @@
         <rol>Sub-DPS, Soporte</rol>
         <tipo-rol>Curador</tipo-rol>
         <tipo-arma>Espada Ligera</tipo-arma>
+        <afiliacion></afiliacion>
+        <descripcion></descripcion>
         <imagen>furina.png</imagen>
     </personaje>
     <personaje id="p8" elemento="Anemo" region="Natlan">
@@ -63,6 +77,8 @@
         <rol>DPS</rol>
         <tipo-rol>DPS Principal</tipo-rol>
         <tipo-arma>Arco</tipo-arma>
+        <afiliacion></afiliacion>
+        <descripcion></descripcion>
         <imagen>chasca.png</imagen>
     </personaje>
     <personaje id="p9" elemento="Dendro" region="Sumeru">
@@ -71,6 +87,8 @@
         <rol>Sub-DPS, Soporte</rol>
         <tipo-rol>Buffer</tipo-rol>
         <tipo-arma>Catalizador</tipo-arma>
+        <afiliacion></afiliacion>
+        <descripcion></descripcion>
         <imagen>nahida.png</imagen>
     </personaje>
 

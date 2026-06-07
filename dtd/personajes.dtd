@@ -1,5 +1,5 @@
 <!ELEMENT lista-personajes (personaje+)>
-<!ELEMENT personaje (nombre,rareza,rol,tipo-rol,tipo-arma,imagen)>
+<!ELEMENT personaje (nombre, rareza, rol, tipo-rol, tipo-arma, afiliacion, descripcion,imagen)>
 <!ATTLIST personaje id ID #REQUIRED>
 <!ATTLIST personaje elemento CDATA #REQUIRED>
 <!ATTLIST personaje region CDATA #REQUIRED>
@@ -8,4 +8,6 @@
 <!ELEMENT rol (#PCDATA)>
 <!ELEMENT tipo-rol (#PCDATA)>
 <!ELEMENT tipo-arma (#PCDATA)>
+<!ELEMENT afiliacion (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
 <!ELEMENT imagen (#PCDATA)>
