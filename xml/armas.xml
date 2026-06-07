@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE lista-armas SYSTEM "../dtd/armas.dtd">
 <lista-armas>
-    <arma id="ar1" tipo="Lanza" rareza="5">
+    <arma id="ar1" tipo="Lanza" rareza="4 estrellas">
         <nombre>Lanza de Favonius</nombre>
         <imagen>lanzafavonius.png</imagen>
-        <personajes-recomendados>Xiangling</personajes-recomendados>
+        <personajes-recomendados>Xiangling, Yao Yao, Shogun Raiden</personajes-recomendados>
     </arma>
 </lista-armas>
