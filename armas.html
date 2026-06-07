@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Genshin 𖹭 Wiki - Armass</title>
+    <title>Genshin 𖹭 Wiki - Armas</title>
+    <link rel="icon" type="image/png" href="/src/img/icon-armas.png">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
@@ -21,7 +22,54 @@
             </ul>
         </nav>
     </header>
-    <main>
+        <main>
+        <section>
+            <select id="rareza">
+                <option value="Todos">Todos</option>
+                <option value="5 estrellas">⭐⭐⭐⭐⭐</option>
+                <option value="4 estrellas">⭐⭐⭐⭐</option>
+            </select>
+            
+            <input id="mandoble" type="checkbox">
+            <label for="mandoble"><img src="src/img/armas/Mandoble.png" alt="Filtrado por Mandoble"></label>
+
+            <input id="catalizador" type="checkbox">
+            <label for="catalizador"><img src="src/img/armas/Catalizador.png" alt="Filtrado por Catalizador"></label>
+
+            <input id="lanza" type="checkbox">
+            <label for="lanza"><img src="src/img/armas/Lanza.png" alt="Filtrado por Lanza"></label>
+
+            <input id="espadaligera" type="checkbox">
+            <label for="espadaligera"><img src="src/img/armas/Espada.png" alt="Filtrado por Espada"></label>
+
+            <input id="arco" type="checkbox">
+            <label for="arco"><img src="src/img/armas/Arco.png" alt="Filtrado por Arco"></label>
+            
+            
+        </section>
+
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Arma</th>
+                        <th>Nombre</th>
+                        <th>Tipo</th>
+                        <th>Rareza</th>
+                        <th>Personajes Recomendados</th>
+                    </tr>
+                </thead>
+                <tbody id="tabla-armas">
+
+                </tbody>
+            </table>
+        </section>
     </main>
+    
+    <footer>
+        <p>Tello Campos Jetzaly Josmery - Genshin Wiki</p>
+    </footer>
+    
+    <script src=""></script>
 </body>
 </html>
