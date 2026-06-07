@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE lista-equipos SYSTEM "../dtd/equipos.dtd">
 <lista-equipos>
-    <equipo id="eq1" tipo="Abismo" reaccion="Vaporize">
-        <nombre>Vaporize Team</nombre>
-        <descripcion>Equipo de alto daño basado en reacción Vaporize</descripcion>
+    <equipo id="eq1" tipo="Abismo, Conflagración" reaccion="Vaporizado">
+        <nombre>Hu tao Vaporizados</nombre>
+        <descripcion>Equipo de alto daño basado en reacción Vaporizado</descripcion>
         <miembros>
             <miembro rol="DPS">Hu Tao</miembro>
             <miembro rol="Soporte">Furina</miembro>
-            <miembro rol="Buffer">Bennett</miembro>
-            <miembro rol="Sub-DPS">Nahida</miembro>
+            <miembro rol="Sub-DPS">Yelan</miembro>
+            <miembro rol="Buffer">Kazuha</miembro>
         </miembros>
     </equipo>
 </lista-equipos>
