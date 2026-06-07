@@ -8,4 +8,11 @@
         <personajes-recomendados>Hu Tao, Yoimiya</personajes-recomendados>
         <imagen>reminiscencia.png</imagen>
     </set>
+    <set id="s2">
+        <nombre>Emblema del Destino</nombre>
+        <bonificacion-2>+20% Recarga de energía</bonificacion-2>
+        <bonificacion-4>Potencia Habilidad Definitiva en base a la recarga del personaje</bonificacion-4>
+        <personajes-recomendados>Shogun Raiden, Xiangling</personajes-recomendados>
+        <imagen>reminiscencia.png</imagen>
+    </set>
 </lista-artefactos>

@@ -40,36 +40,36 @@ function cargarTabla(xml){
             region: p[i].getAttribute("region"),
             afiliacion: p[i].getElementsByTagName("afiliacion")[0].childNodes[0].nodeValue,
             descripcion: p[i].getElementsByTagName("descripcion")[0].childNodes[0].nodeValue
-        });
+        })
     }
-    tabla.innerHTML = filas;
+    tabla.innerHTML = filas
 }
 // Filtrado por elemento y arma
-document.getElementById('pyro').addEventListener('change', filtrar);
-document.getElementById('cryo').addEventListener('change', filtrar);
-document.getElementById('anemo').addEventListener('change', filtrar);
-document.getElementById('electro').addEventListener('change', filtrar);
-document.getElementById('hydro').addEventListener('change', filtrar);
-document.getElementById('geo').addEventListener('change', filtrar);
-document.getElementById('dendro').addEventListener('change', filtrar);
-document.getElementById('mandoble').addEventListener('change', filtrar);
-document.getElementById('lanza').addEventListener('change', filtrar);
-document.getElementById('espadaligera').addEventListener('change', filtrar);
-document.getElementById('arco').addEventListener('change', filtrar);
-document.getElementById('catalizador').addEventListener('change', filtrar);
-document.getElementById('rareza').addEventListener('change', filtrar);
+document.getElementById('pyro').addEventListener('change', filtrar)
+document.getElementById('cryo').addEventListener('change', filtrar)
+document.getElementById('anemo').addEventListener('change', filtrar)
+document.getElementById('electro').addEventListener('change', filtrar)
+document.getElementById('hydro').addEventListener('change', filtrar)
+document.getElementById('geo').addEventListener('change', filtrar)
+document.getElementById('dendro').addEventListener('change', filtrar)
+document.getElementById('mandoble').addEventListener('change', filtrar)
+document.getElementById('lanza').addEventListener('change', filtrar)
+document.getElementById('espadaligera').addEventListener('change', filtrar)
+document.getElementById('arco').addEventListener('change', filtrar)
+document.getElementById('catalizador').addEventListener('change', filtrar)
+document.getElementById('rareza').addEventListener('change', filtrar)
 
 
 function filtrar() {
     const elementosMarcados = [];
 
-    if (document.getElementById('pyro').checked) elementosMarcados.push('Pyro');
-    if (document.getElementById('cryo').checked) elementosMarcados.push('Cryo');
-    if (document.getElementById('anemo').checked) elementosMarcados.push('Anemo');
-    if (document.getElementById('electro').checked) elementosMarcados.push('Electro');
-    if (document.getElementById('hydro').checked) elementosMarcados.push('Hydro');
-    if (document.getElementById('geo').checked) elementosMarcados.push('Geo');
-    if (document.getElementById('dendro').checked) elementosMarcados.push('Dendro');
+    if (document.getElementById('pyro').checked) elementosMarcados.push('Pyro')
+    if (document.getElementById('cryo').checked) elementosMarcados.push('Cryo')
+    if (document.getElementById('anemo').checked) elementosMarcados.push('Anemo')
+    if (document.getElementById('electro').checked) elementosMarcados.push('Electro')
+    if (document.getElementById('hydro').checked) elementosMarcados.push('Hydro')
+    if (document.getElementById('geo').checked) elementosMarcados.push('Geo')
+    if (document.getElementById('dendro').checked) elementosMarcados.push('Dendro')
     
     const tiposMarcados = [];
     if (document.getElementById('mandoble').checked) tiposMarcados.push('Mandoble');
@@ -84,10 +84,10 @@ function filtrar() {
     for (let i = 0; i < todosPersonajes.length; i++) {
         const cumpleElemento = elementosMarcados.length === 0 || elementosMarcados.includes(todosPersonajes[i].elemento);
         const cumpleArma = tiposMarcados.length === 0 || tiposMarcados.includes(todosPersonajes[i].tipoArma);
-        const cumpleRareza = rareza === "Todos" || todosPersonajes[i].rareza === rareza;
+        const cumpleRareza = rareza === "Todos" || todosPersonajes[i].rareza === rareza
 
         if (cumpleElemento && cumpleArma && cumpleRareza) {
-            personajesFiltrados.push(todosPersonajes[i]);
+            personajesFiltrados.push(todosPersonajes[i])
         }
     }
 
@@ -115,5 +115,5 @@ function filtrar() {
         personajesFiltrados[i].descripcion+
         "</td></tr>"
     }
-    tabla.innerHTML = filas;   
+    tabla.innerHTML = filas
 }
