@@ -15,7 +15,6 @@ function cargarTabla(xml){
         for (let j = 0; j < miembros.length; j++) {
             listaMiembros += miembros[j].childNodes[0].nodeValue + " (" + miembros[j].getAttribute("rol") + ") ";
         }
-
         filas += "<tr><td>" +
         p[i].getElementsByTagName("nombre")[0].childNodes[0].nodeValue +
         "</td><td>" +
