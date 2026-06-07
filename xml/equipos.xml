@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE lista-equipos SYSTEM "../dtd/equipos.dtd">
 <lista-equipos>
-    <equipo id="eq1" tipo="Abismo, Conflagración" reaccion="Vaporizado">
+    <equipo id="eq1" tipo="abismo" reaccion="vaporizado">
         <nombre>Hu tao Vaporizados</nombre>
         <descripcion>Equipo de alto daño basado en reacción Vaporizado</descripcion>
         <miembros>
