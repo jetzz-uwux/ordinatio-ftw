@@ -59,7 +59,7 @@
         <tipo-arma>Espada Ligera</tipo-arma>
         <afiliacion>Facultad Rtawahist</afiliacion>
         <descripcion>Una estudiante de la Facultad Rtawahist especializada en astrologia teórica, A veces con sonambulismo, otras veces con insomnio, esta chica siempre tiene problemas de sueño.</descripcion>
-        <imagen>laila.png</imagen>
+        <imagen>layla.png</imagen>
     </personaje>
     <personaje id="p7" elemento="Hydro" region="Fontaine">
         <nombre>Furina</nombre>
