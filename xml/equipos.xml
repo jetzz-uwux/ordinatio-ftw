@@ -11,4 +11,94 @@
             <miembro rol="Buffer">Kazuha</miembro>
         </miembros>
     </equipo>
+    <equipo id="eq2" tipo="abismo" reaccion="sobreflorecimiento">
+        <nombre>Nahida Hyperbloom</nombre>
+        <descripcion>Consistencia absoluta en daño de Dendro Cores mediante la activación rápida de espinas con daño Electro.</descripcion>
+        <miembros>
+            <miembro rol="Buffer">Nahida</miembro>
+            <miembro rol="Sub-DPS">Xingqiu</miembro>
+            <miembro rol="Enabler">Kuki Shinobu</miembro>
+            <miembro rol="DPS">Alhacén</miembro>
+        </miembros>
+    </equipo>
+    <equipo id="eq3" tipo="abismo" reaccion="sobrecarga">
+        <nombre>Raiden National</nombre>
+        <descripcion>Ciclo infinito de Definitivas gracias a la batería de Raiden, provocando múltiples reacciones elementales simultáneas.</descripcion>
+        <miembros>
+            <miembro rol="DPS">Shogun Raiden</miembro>
+            <miembro rol="Sub-DPS">Xiangling</miembro>
+            <miembro rol="Sub-DPS">Xingqiu</miembro>
+            <miembro rol="Buffer">Bennett</miembro>
+        </miembros>
+    </equipo>
+    <equipo id="eq4" tipo="abismo" reaccion="congelacion">
+        <nombre>Ayaka Permafrost</nombre>
+        <descripcion>Control de masas total manteniendo a los enemigos congelados permanentemente mientras se maximiza la Probabilidad del set Nómada del Invierno.</descripcion>
+        <miembros>
+            <miembro rol="DPS">Kamisato Ayaka</miembro>
+            <miembro rol="Buffer">Shenhe</miembro>
+            <miembro rol="Buffer">Kaedehara Kazuha</miembro>
+            <miembro rol="Soporte">Kokomi</miembro>
+        </miembros>
+    </equipo>
+    <equipo id="eq5" tipo="mundo" reaccion="cristalizado">
+        <nombre>Itto Mono Geo</nombre>
+        <descripcion>Fuerza bruta basada en la estadística de Defensa. Daño ininterrumpido gracias al escudo inquebrantable de Zhongli.</descripcion>
+        <miembros>
+            <miembro rol="DPS">Arataki Itto</miembro>
+            <miembro rol="Buffer">Gorou</miembro>
+            <miembro rol="Soporte">Chiori</miembro>
+            <miembro rol="Soporte">Zhongli</miembro>
+        </miembros>
+    </equipo>
+    <equipo id="eq6" tipo="abismo" reaccion="intensificacion">
+        <nombre>Keqing Agravado</nombre>
+        <descripcion>Daño Electro continuo potenciado por la reacción de Aceleración con Dendro, ideal para escenarios de múltiples objetivos.</descripcion>
+        <miembros>
+            <miembro rol="DPS">Keqing</miembro>
+            <miembro rol="Sub-DPS">Fischl</miembro>
+            <miembro rol="Buffer">Kaedehara Kazuha</miembro>
+            <miembro rol="Soporte">Baizhu</miembro>
+        </miembros>
+    </equipo>
+    <equipo id="eq7" tipo="abismo" reaccion="vaporizado">
+        <nombre>International Team</nombre>
+        <descripcion>Uno de los equipos con mayor daño en área del juego, aprovechando la aplicación Hydro de Childe y el daño Pyro de Xiangling.</descripcion>
+        <miembros>
+            <miembro rol="DPS">Tartaglia</miembro>
+            <miembro rol="Sub-DPS">Xiangling</miembro>
+            <miembro rol="Buffer">Kaedehara Kazuha</miembro>
+            <miembro rol="Buffer">Bennett</miembro>
+        </miembros>
+    </equipo>
+    <equipo id="eq8" tipo="mundo" reaccion="florecimiento">
+        <nombre>Nilou Súper Florecimiento</nombre>
+        <descripcion>Modifica los núcleos Dendro normales por Núcleos Feraces que explotan instantáneamente infligiendo un daño masivo en área.</descripcion>
+        <miembros>
+            <miembro rol="Enabler">Nilou</miembro>
+            <miembro rol="Buffer">Nahida</miembro>
+            <miembro rol="Sub-DPS">Viajero Dendro</miembro>
+            <miembro rol="Healer">Kokomi</miembro>
+        </miembros>
+    </equipo>
+    <equipo id="eq9" tipo="abismo" reaccion="sobreflorecimiento">
+        <nombre>Cyno Hyperbloom Premium</nombre>
+        <descripcion>Permite a Cyno mantenerse en su extensa fase de Definitiva aprovechando buffs de Maestría y generando reacciones híbridas.</descripcion>
+        <miembros>
+            <miembro rol="DPS">Cyno</miembro>
+            <miembro rol="Sub-DPS">Furina</miembro>
+            <miembro rol="Buffer">Nahida</miembro>
+            <miembro rol="Healer">Baizhu</miembro>
+        </miembros>
+    </equipo>
+    <equipo id="eq10" tipo="abismo" reaccion="cristalizado">
+        <nombre>Navia Burst</nombre>
+        <descripcion>Absorbe fragmentos de cristalización para cargar el paraguas-cañón de Navia y soltar descomunales golpes de daño Geo.</descripcion>
+        <miembros>
+            <miembro rol="DPS">Navia</miembro>
+            <miembro rol="Sub-DPS">Chiori</miembro>
+            <miembro rol="Sub-DPS">Yelan</miembro>
+            <miembro rol="Buffer">Bennett</miembro>
+        </miembros>
+    </equipo>
 </lista-equipos>

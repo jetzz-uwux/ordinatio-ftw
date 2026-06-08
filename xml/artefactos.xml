@@ -13,6 +13,62 @@
         <bonificacion-2>+20% Recarga de energía</bonificacion-2>
         <bonificacion-4>Potencia Habilidad Definitiva en base a la recarga del personaje</bonificacion-4>
         <personajes-recomendados>Shogun Raiden, Xiangling</personajes-recomendados>
-        <imagen>reminiscencia.png</imagen>
+        <imagen>emblema.png</imagen>
+    </set>
+    <set id="s3">
+        <nombre>Recuerdos del Bosque</nombre>
+        <bonificacion-2>+15% Bono de Daño Dendro</bonificacion-2>
+        <bonificacion-4>Tras golpear a un enemigo con la Habilidad Elemental o Definitiva, su Resistencia Dendro baja un 30% por 8s, incluso si el portador está fuera del campo.</bonificacion-4>
+        <personajes-recomendados>Nahida, Baizhu, Yaoyao, Zhongli</personajes-recomendados>
+        <imagen>recuerdos.png</imagen>
+    </set>
+    <set id="s4">
+        <nombre>Sombra Verde Esmeralda</nombre>
+        <bonificacion-2>+15% Bono de Daño Anemo</bonificacion-2>
+        <bonificacion-4>Aumenta el daño de Torbellino en un 60%. Varía la Resistencia Elemental del enemigo al elemento imbuido en el Torbellino en un 40% durante 10s.</bonificacion-4>
+        <personajes-recomendados>Kaedehara Kazuha, Sucrose, Venti, Jean</personajes-recomendados>
+        <imagen>sombraverde.png</imagen>
+    </set>
+    <set id="s5">
+        <nombre>Cazador Fantasmal</nombre>
+        <bonificacion-2>+15% Daño de Ataque Normal y Cargado</bonificacion-2>
+        <bonificacion-4>Cuando la Vida actual del portador aumenta o disminuye, la Probabilidad CRIT aumenta un 12%. Este efecto dura 5s y puede acumularse hasta 3 veces.</bonificacion-4>
+        <personajes-recomendados>Hu Tao, Neuvillette, Wriothesley, Lyney</personajes-recomendados>
+        <imagen>cazador.png</imagen>
+    </set>
+    <set id="s6">
+        <nombre>Nómada del Invierno</nombre>
+        <bonificacion-2>+15% Bono de Daño Cryo</bonificacion-2>
+        <bonificacion-4>Aumenta en un 20% la Prob. CRIT contra enemigos afectados por Cryo. Si el enemigo está Congelado, la Prob. CRIT aumenta en un 20% adicional.</bonificacion-4>
+        <personajes-recomendados>Kamisato Ayaka, Ganyu, Rosaria</personajes-recomendados>
+        <imagen>nomadainvierno.png</imagen>
+    </set>
+    <set id="s7">
+        <nombre>Sueños Áureos</nombre>
+        <bonificacion-2>+80 pts de Maestría Elemental</bonificacion-2>
+        <bonificacion-4>Tras causar una Reacción Elemental, el portador recibe buffs basados en los tipos elementales del equipo: +14% ATQ por cada aliado del mismo elemento, o +50 pts de Maestría por cada elemento distinto.</bonificacion-4>
+        <personajes-recomendados>Alhacén, Cyno, Yae Miko, Kuki Shinobu</personajes-recomendados>
+        <imagen>suenosaureos_set.png</imagen>
+    </set>
+    <set id="s8">
+        <nombre>Eco del Sacrificio</nombre>
+        <bonificacion-2>+18% ATQ</bonificacion-2>
+        <bonificacion-4>Al golpear con un Ataque Normal hay un 36% de probabilidad de activar un efecto que aumenta el DAÑ del Ataque Normal en un 70% del ATQ. Desaparece 0.05s después de infligir daño.</bonificacion-4>
+        <personajes-recomendados>Kamisato Ayato, Yoimiya, Wanderer</personajes-recomendados>
+        <imagen>eco.png</imagen>
+    </set>
+    <set id="s9">
+        <nombre>Ritual Antiguo de la Nobleza</nombre>
+        <bonificacion-2>+20% Daño de Habilidad Definitiva</bonificacion-2>
+        <bonificacion-4>Después de lanzar una Habilidad Definitiva, el ATQ de todos los miembros del equipo aumenta en un 20% durante 12s. Este efecto no es acumulable.</bonificacion-4>
+        <personajes-recomendados>Bennett, Xingqiu, Thoma, Rosaria</personajes-recomendados>
+        <imagen>ritualnobleza.png</imagen>
+    </set>
+    <set id="s10">
+        <nombre>Perla Oceánica</nombre>
+        <bonificacion-2>+15% Bono de Curación</bonificacion-2>
+        <bonificacion-4>Cuando el portador cura a un aliado, aparece una espuma marina que acumula la cantidad de vida regenerada. Tras 3s, explota infligiendo daño físico basado en el 90% de la curación acumulada.</bonificacion-4>
+        <personajes-recomendados>Kokomi, Bárbara, Qiqi, Baizhu</personajes-recomendados>
+        <imagen>perlaoceanica.png</imagen>
     </set>
 </lista-artefactos>

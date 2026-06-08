@@ -6,4 +6,44 @@
         <imagen>lanzafavonius.png</imagen>
         <personajes-recomendados>Xiangling, Yao Yao, Shogun Raiden</personajes-recomendados>
     </arma>
+    <arma id="ar2" tipo="Lanza" rareza="5 estrellas">
+        <nombre>Báculo de Homa</nombre>
+        <imagen>baculohoma.png</imagen>
+        <personajes-recomendados>Hu Tao, Zhongli, Xiao, Cyno</personajes-recomendados>
+    </arma>
+    <arma id="ar3" tipo="Espada" rareza="4 estrellas">
+        <nombre>Espada de Sacrificio</nombre>
+        <imagen>espadasacrificio.png</imagen>
+        <personajes-recomendados>Xingqiu, Kaedehara Kazuha, Kirara</personajes-recomendados>
+    </arma>
+    <arma id="ar4" tipo="Mandoble" rareza="5 estrellas">
+        <nombre>Sentenciadora</nombre>
+        <imagen>sentenciadora.png</imagen>
+        <personajes-recomendados>Navia, Diluc, Arataki Itto</personajes-recomendados>
+    </arma>
+    <arma id="ar5" tipo="Catalizador" rareza="3 estrellas">
+        <nombre>Cuentos de Cazadores de Dragones</nombre>
+        <imagen>cazadoresdragones.png</imagen>
+        <personajes-recomendados>Kokomi, Bárbara, Sucrose</personajes-recomendados>
+    </arma>
+    <arma id="ar6" tipo="Arco" rareza="5 estrellas">
+        <nombre>Aqua Simulacra</nombre>
+        <imagen>aquasimulacra.png</imagen>
+        <personajes-recomendados>Yelan, Ganyu, Tighnari, Tartaglia</personajes-recomendados>
+    </arma>
+    <arma id="ar8" tipo="Catalizador" rareza="5 estrellas">
+        <nombre>Sueños de las Mil Noches </nombre>
+        <imagen>suenosnoches.png</imagen>
+        <personajes-recomendados>Nahida, Yae Miko, Sucrose</personajes-recomendados>
+    </arma>
+    <arma id="ar9" tipo="Arco" rareza="4 estrellas">
+        <nombre>Arco de Favonius</nombre>
+        <imagen>arcofavonius.png</imagen>
+        <personajes-recomendados>Yelan, Gorou, Diona, Faruzan</personajes-recomendados>
+    </arma>
+    <arma id="ar10" tipo="Lanza" rareza="4 estrellas">
+        <nombre>La Captura</nombre>
+        <imagen>lacaptura.png</imagen>
+        <personajes-recomendados>Shogun Raiden, Xiangling, Thoma</personajes-recomendados>
+    </arma>
 </lista-armas>

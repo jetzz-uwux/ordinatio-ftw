@@ -20,7 +20,6 @@ function iniciarsesion(){
             const passwordXML = usuarios[i].getElementsByTagName('password')[0].textContent
             if (correo === correoXML && password === passwordXML) {
                 encontrado = true;
-                sessionStorage.setItem('usuario', correo)
                 window.location.href = 'perfil.html'
             }
         }
