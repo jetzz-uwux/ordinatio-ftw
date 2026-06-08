@@ -1,6 +1,8 @@
 header {
     background-color: #ffe3e3;
     padding: 10px 30px;
+    width: 100%; 
+    box-sizing: border-box;
 }
 
 nav {
@@ -8,6 +10,8 @@ nav {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    width: 100%; 
+    box-sizing: border-box;
 }
 
 .hero {
@@ -32,7 +36,8 @@ nav {
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     padding: 20px;
     margin-bottom: 20px;
-    max-width: 700px;
+    width: 100%; 
+    box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
 }
@@ -101,15 +106,15 @@ button:hover {
 }
 
 .imagen-banner {
-    max-width: 100%;
-    max-height: 400px;
+    width: 100%; 
+    box-sizing: border-box;
     object-fit: cover;
     border-radius: 10px;
 }
 
 .card-img {
-    max-width: 100%;
-    max-height: 200px;
+    width: 100%; 
+    box-sizing: border-box;
     object-fit: cover;
     border-radius: 10px;
 }
@@ -123,7 +128,8 @@ button:hover {
 
 .card {
     flex: 1;
-    min-width: 200px;
+    width: 100%; 
+    box-sizing: border-box;
     background: white;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
@@ -160,12 +166,16 @@ button:hover {
 .contacto-form {
     max-width: 500px;
     margin: 0 auto;
+    width: 100%; 
+    box-sizing: border-box;
 }
 
 .sobre-wiki {
     padding: 20px;
     margin-bottom: 20px;
     text-align: center;
+    width: 100%; 
+    box-sizing: border-box;
 }
 
 blockquote {
@@ -173,6 +183,8 @@ blockquote {
     color: #6b7f9e;
     margin: 20px 0;
     text-align: center;
+    width: 100%; 
+    box-sizing: border-box;
 }
 
 .checkbox-container {
@@ -220,7 +232,7 @@ input[type="checkbox"]:checked + label img {
 }
 
 footer {
-    background-color: #ffe6e3;
+    background-color: #ffe3e3;
     text-align: center;
     padding: 15px;
     color: #444;
@@ -260,11 +272,10 @@ tr:hover {
 }
 
 main {
-    flex: 1;
-    padding: 20px;
-    max-width: 1400px;
-    margin: 0 auto;
+    width: 100%; 
+    box-sizing: border-box; 
 }
+
 
 body {
     font-family: 'Segoe UI', sans-serif;
@@ -305,7 +316,8 @@ select:hover {
     }
 
     table {
-        font-size: 12px;
+        width: 100%;
+        min-width: 500px; 
     }
 
     th, td {
@@ -313,6 +325,8 @@ select:hover {
     }
 
     section {
-        overflow-x: auto; /* Esto ayuda a que si la tabla es enorme, salga un scroll lateral solo ahí */
+        overflow-x: auto; 
+        width: 100%;
+        -webkit-overflow-scrolling: touch; 
     }
 }
