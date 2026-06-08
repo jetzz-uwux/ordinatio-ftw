@@ -11,7 +11,7 @@
         <imagen>baculohoma.png</imagen>
         <personajes-recomendados>Hu Tao, Zhongli, Xiao, Cyno</personajes-recomendados>
     </arma>
-    <arma id="ar3" tipo="Espada" rareza="4 estrellas">
+    <arma id="ar3" tipo="Espada Ligera" rareza="4 estrellas">
         <nombre>Espada de Sacrificio</nombre>
         <imagen>espadasacrificio.png</imagen>
         <personajes-recomendados>Xingqiu, Kaedehara Kazuha, Kirara</personajes-recomendados>
