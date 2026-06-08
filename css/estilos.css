@@ -3,6 +3,7 @@ header {
     padding: 10px 30px;
     width: 100%; 
     box-sizing: border-box;
+    border-bottom: 2px solid #f5c2c2; 
 }
 
 nav {
@@ -13,6 +14,8 @@ nav {
     width: 100%; 
     box-sizing: border-box;
 }
+
+
 
 .hero {
     text-align: center;
@@ -254,11 +257,17 @@ footer {
 }
 
 nav a {
-    text-decoration: none;
-    color: #444;
+text-decoration: none;
+    color: #555;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 6px 10px;
+    border-radius: 8px;
+    transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 nav a:hover {
+    background-color: #f5c2c2;
     color: #6b7f9e;
 }
 
@@ -286,8 +295,12 @@ tr:hover {
 }
 
 main {
+
     width: 100%; 
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    padding: 20px 40px;     
+    max-width: 1100px;      
+    margin: 0 auto; 
 }
 
 
@@ -313,19 +326,129 @@ select:hover {
     border-color: #6b7f9e;
 }
 
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.modal-card {
+    background: white;
+    border-radius: 16px;
+    padding: 30px;
+    max-width: 420px;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+    position: relative;
+}
+
+.modal-card img {
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.modal-card h2 {
+    color: #6b7f9e;
+    margin-bottom: 12px;
+}
+
+.modal-card figcaption {
+    color: #6b7f9e;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 8px 0 12px;
+}
+.modal-datos {
+    text-align: left;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 4px 12px;
+    margin-top: 10px;
+}
+
+.modal-datos dt {
+    font-weight: bold;
+    color: #6b7f9e;
+    font-size: 13px;
+}
+
+.modal-datos dd {
+    color: #555;
+    font-size: 13px;
+    margin: 0;
+}
+
+.modal-datos p {
+    color: #555;
+    font-size: 14px;
+    margin: 0;
+}
+
+.modal-cerrar {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: auto;
+    background: #ffe3e3;
+    color: #6b7f9e;
+    font-weight: bold;
+    padding: 4px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 1024px) {
+    main {
+        padding: 15px;
+    }
+
+    .cards-container,
+    .cards-container2 {
+        gap: 15px;
+    }
+
+    .card {
+        flex: 1 1 200px
+    }
+
+    .seccion-card {
+        padding: 15px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    .login-section {
+        width: 400px;
+    }
+}
 
 @media (max-width: 768px) {
-    /* Tu navegación actual */
+
+    header {
+    padding: 12px 15px;
+    }
+
+    nav h1 {
+        font-size: 18px;
+    }
+
     nav {
         flex-direction: column;
         align-items: flex-start;
-        gap: 15px; /* Un pequeño espacio por si se juntan los elementos */
+        gap: 10px;
     }
 
-    /* Aplicamos el cambio de columna a tu lista del menú */
     .horizontal {
         flex-direction: column;
-        gap: 10px;
+        gap: 8px;
         padding: 0;
     }
 
@@ -333,9 +456,10 @@ select:hover {
         padding: 10px;
     }
 
-    .cards-container {
+    .cards-container,
+    .cards-container2 {
         flex-direction: column;
-        gap: 15px;
+        gap: 12px;
     }
 
     .card {
@@ -344,23 +468,62 @@ select:hover {
     }
 
     .login-section {
-        width: 100%;
-        max-width: 320px; 
+        width: 90%;        
+        max-width: 320px;
         margin: 20px auto;
     }
 
-    table {
+    section {
+        overflow-x: auto;
         width: 100%;
-        min-width: 500px; 
+        -webkit-overflow-scrolling: touch;
+    }
+
+    table {
+        min-width: 500px;   
     }
 
     th, td {
-        padding: 5px;
+        padding: 6px 8px;
+        font-size: 13px;
     }
 
-    section {
-        overflow-x: auto; 
-        width: 100%;
-        -webkit-overflow-scrolling: touch; 
+    .filtros {
+        gap: 8px;
+        padding: 10px;
+    }
+
+    .filtros img {
+        width: 28px;
+        height: 28px;
+    }
+
+    .hero h2 {
+        font-size: 22px;
+    }
+
+    .img-perfil {
+        width: 100px;
+        height: 100px;
+    }
+
+    .modal-card {
+    padding: 20px 15px;
+    max-width: 95%;
+    max-height: 85vh;        /* no se sale de la pantalla */
+    overflow-y: auto;         /* scroll si el contenido es largo */
+}
+
+    .modal-card img {
+        width: 80px;
+    }
+
+    .modal-card figcaption {
+        font-size: 16px;
+    }
+
+    .modal-datos {
+        font-size: 12px;
+        gap: 3px 8px;
     }
 }

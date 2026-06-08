@@ -11,7 +11,7 @@ function cargarTabla(xml){
     const p = xmlDoc.getElementsByTagName("personaje")
     let filas =""
     for (let i = 0; i <p.length; i++) {
-        filas += "<tr><td><img src='src/img/personajes/" + 
+        filas += "<tr style='cursor:pointer' onclick='abrirModal(" + i + ")'><td><img src='src/img/personajes/" + 
         p[i].getElementsByTagName("imagen")[0].childNodes[0].nodeValue + 
         "' alt='imagen de " +
         p[i].getElementsByTagName("nombre")[0].childNodes[0].nodeValue +
@@ -44,6 +44,7 @@ function cargarTabla(xml){
     }
     tabla.innerHTML = filas
 }
+
 // Filtrado por elemento y arma
 document.getElementById('pyro').addEventListener('change', filtrar)
 document.getElementById('cryo').addEventListener('change', filtrar)
@@ -87,13 +88,13 @@ function filtrar() {
         const cumpleRareza = rareza === "Todos" || todosPersonajes[i].rareza === rareza
 
         if (cumpleElemento && cumpleArma && cumpleRareza) {
-            personajesFiltrados.push(todosPersonajes[i])
+            personajesFiltrados.push({ ...todosPersonajes[i], idx: i })
         }
     }
 
     let filas = "";
     for (let i = 0; i < personajesFiltrados.length; i++) {
-        filas += "<tr><td><img src='src/img/personajes/" + 
+        filas += "<tr style='cursor:pointer' onclick='abrirModal(" + personajesFiltrados[i].idx + ")'><td><img src='src/img/personajes/" + 
         personajesFiltrados[i].imagen + 
         "' alt='imagen de " +
         personajesFiltrados[i].nombre +
@@ -117,3 +118,28 @@ function filtrar() {
     }
     tabla.innerHTML = filas
 }
+
+function abrirModal(idx) {
+    const p = todosPersonajes[idx];
+    document.getElementById('modal-img').src = 'src/img/personajes/' + p.imagen;
+    document.getElementById('modal-img').alt = p.nombre;
+    document.getElementById('modal-nombre').textContent = p.nombre;
+    document.getElementById('modal-elemento').textContent = p.elemento;
+    document.getElementById('modal-rareza').textContent = p.rareza;
+    document.getElementById('modal-rol').textContent = p.rol;
+    document.getElementById('modal-arma').textContent = p.tipoArma;
+    document.getElementById('modal-region').textContent = p.region;
+    document.getElementById('modal-afiliacion').textContent = p.afiliacion;
+    document.getElementById('modal-descripcion').textContent = p.descripcion;
+    document.getElementById('modal').style.display = 'flex';
+}
+
+function cerrarModal() {
+    document.getElementById('modal').style.display = 'none';
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('modal').addEventListener('click', function(e) {
+        if (e.target === this) cerrarModal();
+    });
+});

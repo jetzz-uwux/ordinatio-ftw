@@ -89,6 +89,27 @@
                 </tbody>
             </table>
         </section>
+        <div id="modal" class="modal-overlay" style="display:none">
+            <article class="modal-card">
+                <button class="modal-cerrar" onclick="cerrarModal()">✕</button>
+
+                <figure>
+                    <img id="modal-img" src="" alt="" width="120">
+                    <figcaption id="modal-nombre"></figcaption>
+                </figure>
+
+                <dl class="modal-datos">
+                    <dt>Elemento</dt><dd id="modal-elemento"></dd>
+                    <dt>Rareza</dt><dd id="modal-rareza"></dd>
+                    <dt>Rol</dt><dd id="modal-rol"></dd>
+                    <dt>Arma</dt><dd id="modal-arma"></dd>
+                    <dt>Región</dt><dd id="modal-region"></dd>
+                    <dt>Afiliación</dt><dd id="modal-afiliacion"></dd>
+                </dl>
+
+                <p id="modal-descripcion"></p>
+            </article>
+        </div>
     </main>
     
     <footer>
