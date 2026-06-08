@@ -10,6 +10,52 @@ nav {
     flex-wrap: wrap;
 }
 
+.hero {
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h2 {
+    font-size: 32px;
+    color: #6b7f9e;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.seccion-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.seccion-card h2 {
+    color: #6b7f9e;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.seccion-card p {
+    color: #666;
+    line-height: 1.6;
+    text-align: center;
+    margin-top: 10px;
+}
+
+legend {
+    font-weight: bold;
+    color: #6b7f9e;
+    font-size: 16px;
+}
+
 .login-section {
     background: white;
     padding: 30px;
@@ -78,6 +124,55 @@ button:hover {
 .card {
     flex: 1;
     min-width: 200px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    padding: 10px;
+    text-align: center;
+}
+.card a {
+    text-decoration: none;
+    color: #6b7f9e;
+    font-weight: 500;
+}
+
+.card a:hover {
+    color: #ffe6e3;
+}
+
+.img-perfil {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.imagen {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.contacto-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.sobre-wiki {
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+blockquote {
+    font-style: italic;
+    color: #6b7f9e;
+    margin: 20px 0;
+    text-align: center;
 }
 
 .checkbox-container {
@@ -160,7 +255,8 @@ th {
 }
 
 tr:hover {
-    background-color: #f5f5f5;
+        background-color: #fdf0f3;
+    transition: background-color 0.3s ease;
 }
 
 main {
@@ -191,6 +287,7 @@ select {
 select:hover {
     border-color: #6b7f9e;
 }
+
 
 @media (max-width: 768px) {
     nav {
