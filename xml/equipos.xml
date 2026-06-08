@@ -21,7 +21,7 @@
             <miembro rol="DPS">Alhacén</miembro>
         </miembros>
     </equipo>
-    <equipo id="eq3" tipo="abismo" reaccion="sobrecarga">
+    <equipo id="eq3" tipo="conflagracion" reaccion="sobrecarga">
         <nombre>Raiden National</nombre>
         <descripcion>Ciclo infinito de Definitivas gracias a la batería de Raiden, provocando múltiples reacciones elementales simultáneas.</descripcion>
         <miembros>
@@ -41,7 +41,7 @@
             <miembro rol="Soporte">Kokomi</miembro>
         </miembros>
     </equipo>
-    <equipo id="eq5" tipo="mundo" reaccion="cristalizado">
+    <equipo id="eq5" tipo="exploracion" reaccion="cristalizado">
         <nombre>Itto Mono Geo</nombre>
         <descripcion>Fuerza bruta basada en la estadística de Defensa. Daño ininterrumpido gracias al escudo inquebrantable de Zhongli.</descripcion>
         <miembros>

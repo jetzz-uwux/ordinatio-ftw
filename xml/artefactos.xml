@@ -4,14 +4,14 @@
     <set id="s1">
         <nombre>Reminiscencia de la Purificación</nombre>
         <bonificacion-2>+18% ATQ</bonificacion-2>
-        <bonificacion-4>Potencia Ataques Normales</bonificacion-4>
+        <bonificacion-4>Si el personaje tiene 15 pts. de Energía Elemental o más, perderá 15 pts. al realizar una Habilidad Elemental y el daño infligido con los Ataques Normales, Cargados y Descendentes aumentará en un 50% durante 10 s. Este efecto no puede activarse más de una vez simultáneamente.</bonificacion-4>
         <personajes-recomendados>Hu Tao, Yoimiya</personajes-recomendados>
         <imagen>reminiscencia.png</imagen>
     </set>
     <set id="s2">
         <nombre>Emblema del Destino</nombre>
         <bonificacion-2>+20% Recarga de energía</bonificacion-2>
-        <bonificacion-4>Potencia Habilidad Definitiva en base a la recarga del personaje</bonificacion-4>
+        <bonificacion-4>Aumenta el daño infligido con la Habilidad Definitiva en una cantidad equivalente al 25% de la Recarga de Energía. Se puede obtener un aumento del 75% como máximo.</bonificacion-4>
         <personajes-recomendados>Shogun Raiden, Xiangling</personajes-recomendados>
         <imagen>emblema.png</imagen>
     </set>
@@ -48,7 +48,7 @@
         <bonificacion-2>+80 pts de Maestría Elemental</bonificacion-2>
         <bonificacion-4>Tras causar una Reacción Elemental, el portador recibe buffs basados en los tipos elementales del equipo: +14% ATQ por cada aliado del mismo elemento, o +50 pts de Maestría por cada elemento distinto.</bonificacion-4>
         <personajes-recomendados>Alhacén, Cyno, Yae Miko, Kuki Shinobu</personajes-recomendados>
-        <imagen>suenosaureos_set.png</imagen>
+        <imagen>suenosaureos.png</imagen>
     </set>
     <set id="s8">
         <nombre>Eco del Sacrificio</nombre>
