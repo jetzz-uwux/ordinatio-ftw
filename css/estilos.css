@@ -1,5 +1,5 @@
 header {
-    background-color: #ffe6e3;
+    background-color: #ffe3e3;
     padding: 10px 30px;
 }
 
@@ -313,6 +313,6 @@ select:hover {
     }
 
     section {
-        overflow-x: auto;
+        overflow-x: auto; /* Esto ayuda a que si la tabla es enorme, salga un scroll lateral solo ahí */
     }
 }
