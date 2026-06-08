@@ -301,18 +301,38 @@ select:hover {
 
 
 @media (max-width: 768px) {
+    /* Tu navegación actual */
     nav {
         flex-direction: column;
         align-items: flex-start;
+        gap: 15px; /* Un pequeño espacio por si se juntan los elementos */
     }
 
-    nav ul {
+    /* Aplicamos el cambio de columna a tu lista del menú */
+    .horizontal {
         flex-direction: column;
         gap: 10px;
+        padding: 0;
     }
 
     main {
         padding: 10px;
+    }
+
+    .cards-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .card {
+        flex: none;
+        width: 100%;
+    }
+
+    .login-section {
+        width: 100%;
+        max-width: 320px; 
+        margin: 20px auto;
     }
 
     table {
