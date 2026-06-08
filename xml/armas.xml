@@ -32,7 +32,7 @@
         <personajes-recomendados>Yelan, Ganyu, Tighnari, Tartaglia</personajes-recomendados>
     </arma>
     <arma id="ar8" tipo="Catalizador" rareza="5 estrellas">
-        <nombre>Sueños de las Mil Noches </nombre>
+        <nombre>Sueños de las Mil Noches</nombre>
         <imagen>suenosnoches.png</imagen>
         <personajes-recomendados>Nahida, Yae Miko, Sucrose</personajes-recomendados>
     </arma>
